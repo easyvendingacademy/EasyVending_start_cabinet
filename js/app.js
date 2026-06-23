@@ -1,22 +1,7 @@
-function openModel(modelName) {
-    document.getElementById("modelTitle").textContent = modelName;
-    document.getElementById("modelCabinet").classList.remove("hidden");
-    document.getElementById("modelCabinet").scrollIntoView({ behavior: "smooth" });
+const modelCards = document.querySelectorAll(".model-card");
 
-    showTab("start");
-}
-
-function closeModel() {
-    document.getElementById("modelCabinet").classList.add("hidden");
-    window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function showTab(tabId) {
-    const tabs = document.querySelectorAll(".tab-content");
-
-    tabs.forEach(function(tab) {
-        tab.classList.remove("active");
+modelCards.forEach(card => {
+    card.addEventListener("click", () => {
+        alert("Кабінет моделі відкриємо на наступному кроці");
     });
-
-    document.getElementById(tabId).classList.add("active");
-}
+});
