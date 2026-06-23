@@ -1,49 +1,118 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>EasyVending Start Cabinet</title>
-
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <div class="container">
-
-        <h1>Кабінет запуску EasyVending</h1>
-
-        <p>
-            Вітаємо! Оберіть вашу модель обладнання та отримайте
-            інструкції, відео, чеклісти та підтримку.
+<div class="container">
+    <header class="hero">
+        <p class="label">EasyVending Start Cabinet</p>
+        <h1>Оберіть тип обладнання</h1>
+        <p class="subtitle">
+            Після вибору моделі ви отримаєте інструкції, відео, чеклісти та контакти підтримки.
         </p>
+    </header>
 
-        <div class="cards">
-
-            <div class="card">
-                <h2>Jetinno JL550</h2>
-                <p>Для локацій з високим трафіком</p>
+    <section class="catalog">
+        <div class="category">
+            <h2>Кавове обладнання</h2>
+            <div class="models">
+                <button onclick="openModel('Jetinno JL18')">Jetinno JL18</button>
+                <button onclick="openModel('Jetinno JL22')">Jetinno JL22</button>
+                <button onclick="openModel('Jetinno JL26')">Jetinno JL26</button>
+                <button onclick="openModel('Jetinno JL28')">Jetinno JL28</button>
+                <button onclick="openModel('Jetinno JL31')">Jetinno JL31</button>
+                <button onclick="openModel('Jetinno JL300')">Jetinno JL300</button>
             </div>
-
-            <div class="card">
-                <h2>Jetinno JL26</h2>
-                <p>Для бізнесу та комерційних приміщень</p>
-            </div>
-
-            <div class="card">
-                <h2>Jetinno JL05B</h2>
-                <p>Для дому та невеликого офісу</p>
-            </div>
-
         </div>
 
-    </div>
+        <div class="category">
+            <h2>Торгові автомати</h2>
+            <div class="models">
+                <button onclick="openModel('TCN G6 (H5)')">TCN G6 (H5)</button>
+                <button onclick="openModel('TCN G8 (H5)')">TCN G8 (H5)</button>
+                <button onclick="openModel('TCN G11 (V22)')">TCN G11 (V22)</button>
+            </div>
+        </div>
+    </section>
 
-    <script src="js/app.js"></script>
+    <section id="modelCabinet" class="model-cabinet hidden">
+        <button class="back-button" onclick="closeModel()">← Повернутися до каталогу</button>
 
+        <h2 id="modelTitle"></h2>
+        <p class="model-subtitle">
+            Кабінет запуску обраної моделі: інструкції, відео, налаштування, обслуговування та підтримка.
+        </p>
+
+        <div class="tabs">
+            <button onclick="showTab('start')">Перший запуск</button>
+            <button onclick="showTab('settings')">Налаштування</button>
+            <button onclick="showTab('videos')">Відео</button>
+            <button onclick="showTab('service')">Обслуговування</button>
+            <button onclick="showTab('checklists')">Чеклісти</button>
+            <button onclick="showTab('support')">Підтримка</button>
+        </div>
+
+        <div id="start" class="tab-content active">
+            <h3>Перший запуск</h3>
+            <ul>
+                <li>Перевірте місце встановлення обладнання.</li>
+                <li>Переконайтесь, що є доступ до електроживлення.</li>
+                <li>Підготуйте воду, інгредієнти або товари.</li>
+                <li>Проведіть тестовий запуск обладнання.</li>
+            </ul>
+        </div>
+
+        <div id="settings" class="tab-content">
+            <h3>Налаштування</h3>
+            <ul>
+                <li>Налаштування меню або асортименту.</li>
+                <li>Налаштування цін.</li>
+                <li>Перевірка платіжної системи.</li>
+                <li>Тестова видача напою або товару.</li>
+            </ul>
+        </div>
+
+        <div id="videos" class="tab-content">
+            <h3>Відеоінструкції</h3>
+            <p>Тут будуть YouTube-відео для конкретної моделі.</p>
+
+            <div class="video-placeholder">
+                Відео буде додано за посиланням з YouTube
+            </div>
+        </div>
+
+        <div id="service" class="tab-content">
+            <h3>Обслуговування</h3>
+            <ul>
+                <li>Щоденна перевірка стану обладнання.</li>
+                <li>Очищення зовнішніх поверхонь.</li>
+                <li>Перевірка залишків інгредієнтів або товарів.</li>
+                <li>Контроль контейнерів відходів та піддонів.</li>
+            </ul>
+        </div>
+
+        <div id="checklists" class="tab-content">
+            <h3>Чеклісти</h3>
+            <label><input type="checkbox"> Локація підготовлена</label>
+            <label><input type="checkbox"> Електроживлення перевірене</label>
+            <label><input type="checkbox"> Інгредієнти або товари завантажені</label>
+            <label><input type="checkbox"> Тестовий запуск виконано</label>
+            <label><input type="checkbox"> Контакти підтримки збережено</label>
+        </div>
+
+        <div id="support" class="tab-content">
+            <h3>Підтримка EasyVending</h3>
+            <p>Якщо виникло питання, зверніться до менеджера або сервісної служби.</p>
+            <a class="support-link" href="mailto:support@easyvending.ua">Написати в підтримку</a>
+        </div>
+    </section>
+</div>
+
+<script src="js/app.js"></script>
 </body>
-
 </html>
