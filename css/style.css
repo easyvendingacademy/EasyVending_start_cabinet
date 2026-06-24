@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f6f8;
-  color: #1f2933;
+  background: #f7f7f5;
+  color: #151311;
 }
 
 .container {
@@ -15,15 +15,22 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #111827, #374151);
+  background: linear-gradient(
+    135deg,
+    #151311 0%,
+    #228b87 58%,
+    #ee765e 100%
+  );
   color: white;
-  padding: 64px 0;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .eyebrow {
-  color: #f5c542;
+  color: #ee765e;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 13px;
   font-weight: 700;
 }
@@ -52,6 +59,22 @@ h2 {
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.07);
 }
 
+.section h2 {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 4px;
+  background: #228b87;
+  border-radius: 10px;
+}
+
 .muted {
   color: #6b7280;
 }
@@ -64,36 +87,36 @@ h2 {
 }
 
 .model-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-decoration: none;
-  color: #111827;
-  background: #f9fafb;
+  color: #151311;
+  background: #ffffff;
   border: 1px solid #e5e7eb;
   border-radius: 20px;
   padding: 20px;
+  min-height: 300px;
   transition: 0.2s;
 }
 
 .model-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  border-color: #228b87;
+  box-shadow: 0 16px 35px rgba(34, 139, 135, 0.18);
 }
 
 .model-card img {
   width: 100%;
-  height: 190px;
+  height: 210px;
   object-fit: contain;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .model-card h3 {
-  margin: 0 0 8px;
-}
-
-.model-card p {
   margin: 0;
-  color: #6b7280;
-  line-height: 1.5;
+  font-size: 21px;
+  color: #151311;
 }
 
 .video-list {
@@ -129,7 +152,11 @@ h2 {
     padding: 22px;
   }
 
+  .model-card {
+    min-height: 260px;
+  }
+
   .model-card img {
-    height: 150px;
+    height: 170px;
   }
 }
