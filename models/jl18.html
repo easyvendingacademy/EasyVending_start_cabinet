@@ -1,3 +1,100 @@
-<h1>Jetinno JL18</h1>
-<p>Сторінка моделі готується.</p>
-<a href="../index.html">← Повернутися до каталогу</a>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jetinno JL18 | EasyVending</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-model="jl18">
+
+<header class="model-hero">
+  <div class="container">
+    <a class="back-link" href="../index.html">← До вибору моделей</a>
+    <p class="eyebrow">EasyVending Start Cabinet</p>
+    <h1>Jetinno JL18</h1>
+    <p>Інструкції, відео, налаштування, обслуговування та чеклісти для запуску обладнання.</p>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="model-top">
+      <img src="../assets/images/jl18.png" alt="Jetinno JL18">
+      <div>
+        <h2>Кабінет моделі JL18</h2>
+        <p class="muted">Оберіть потрібну вкладку та пройдіть запуск обладнання по кроках.</p>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="videos">Відеоінструкції</button>
+      <button class="tab" data-tab="setup">Налаштування</button>
+      <button class="tab" data-tab="service">Обслуговування</button>
+      <button class="tab" data-tab="checklists">Чеклісти</button>
+      <button class="tab" data-tab="support">Підтримка</button>
+    </div>
+
+    <div class="tab-content active" id="videos">
+      <h2>Відеоінструкції</h2>
+      <div id="video-list" class="video-grid"></div>
+    </div>
+
+    <div class="tab-content" id="setup">
+      <h2>Налаштування обладнання</h2>
+      <ol class="steps">
+        <li>Перевірте підключення обладнання до електромережі.</li>
+        <li>Підключіть кавомашину до Wi-Fi.</li>
+        <li>Перевірте подачу води або наявність резервуару.</li>
+        <li>Засипте каву та інгредієнти.</li>
+        <li>Проведіть калібрування кави та інгредієнтів.</li>
+        <li>Налаштуйте рецептури напоїв.</li>
+        <li>Налаштуйте ціни та формати оплати.</li>
+        <li>Зробіть тестову видачу напою.</li>
+      </ol>
+    </div>
+
+    <div class="tab-content" id="service">
+      <h2>Обслуговування обладнання</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Щодня</h3>
+          <p>Перевірити воду, каву, інгредієнти, стакани, контейнер відходів та чистоту зони видачі.</p>
+        </div>
+        <div class="info-card">
+          <h3>Щотижня</h3>
+          <p>Промити робочі вузли, перевірити бункери, очистити піддон та перевірити стабільність видачі напоїв.</p>
+        </div>
+        <div class="info-card">
+          <h3>Щомісяця</h3>
+          <p>Провести глибше очищення, перевірити налаштування, платіжну систему та основні вузли обладнання.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="checklists">
+      <h2>Чекліст запуску</h2>
+      <label class="check-item"><input type="checkbox"> Обладнання встановлено на рівній поверхні</label>
+      <label class="check-item"><input type="checkbox"> Є доступ до електроживлення</label>
+      <label class="check-item"><input type="checkbox"> Підключено Wi-Fi</label>
+      <label class="check-item"><input type="checkbox"> Завантажено каву та інгредієнти</label>
+      <label class="check-item"><input type="checkbox"> Налаштовано ціни</label>
+      <label class="check-item"><input type="checkbox"> Проведено тестову видачу напою</label>
+      <label class="check-item"><input type="checkbox"> Перевірено оплату</label>
+    </div>
+
+    <div class="tab-content" id="support">
+      <h2>Підтримка EasyVending</h2>
+      <div class="support-box">
+        <p><strong>Менеджер:</strong> додайте номер телефону</p>
+        <p><strong>Сервіс:</strong> додайте номер телефону</p>
+        <p><strong>Email:</strong> додайте пошту</p>
+        <p><strong>Telegram:</strong> додайте посилання</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="../js/app.js"></script>
+</body>
+</html>
