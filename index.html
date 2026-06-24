@@ -1,85 +1,124 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EasyVending Start Cabinet</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кабінет запуску EasyVending</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<div class="container">
+  <header class="hero">
+    <div class="hero-content">
+      <p class="label">EasyVending Start Cabinet</p>
+      <h1>Кабінет запуску обладнання</h1>
+      <p class="hero-text">
+        Оберіть модель обладнання та отримайте відеоінструкції, чеклісти, рекомендації з налаштування й обслуговування.
+      </p>
+    </div>
+  </header>
 
-    <header class="hero">
-        <p class="label">EasyVending Start Cabinet</p>
-        <h1>Кабінет запуску обладнання</h1>
-        <p class="subtitle">
-            Оберіть модель обладнання, щоб перейти до інструкцій, відео, опису та матеріалів підтримки.
+  <main class="container">
+
+    <section class="section">
+      <h2>1. Оберіть модель обладнання</h2>
+      <p class="section-description">
+        Після вибору моделі відкриються відповідні відеоінструкції.
+      </p>
+
+      <div class="model-grid">
+        <button class="model-card active" data-model="jl18">JL18</button>
+        <button class="model-card" data-model="jl22">JL22</button>
+        <button class="model-card" data-model="jl26">JL26</button>
+        <button class="model-card" data-model="jl28">JL28</button>
+        <button class="model-card" data-model="jl300">JL300</button>
+        <button class="model-card" data-model="jl31a">JL31A</button>
+        <button class="model-card" data-model="g6">G6</button>
+        <button class="model-card" data-model="tcn8g">TCN 8G</button>
+        <button class="model-card" data-model="tcn11g">TCN 11G</button>
+      </div>
+    </section>
+
+    <section class="section cabinet">
+      <h2 id="model-title">Jetinno JL18</h2>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="videos">Відеоінструкції</button>
+        <button class="tab" data-tab="setup">Налаштування</button>
+        <button class="tab" data-tab="service">Обслуговування</button>
+        <button class="tab" data-tab="checklists">Чеклісти</button>
+        <button class="tab" data-tab="support">Підтримка</button>
+      </div>
+
+      <div class="tab-content active" id="videos">
+        <h3>Відеоінструкції</h3>
+        <div id="video-list" class="video-grid"></div>
+      </div>
+
+      <div class="tab-content" id="setup">
+        <h3>Налаштування обладнання</h3>
+        <ol class="steps">
+          <li>Перевірте підключення до електромережі.</li>
+          <li>Підключіть обладнання до Wi-Fi.</li>
+          <li>Перевірте подачу води або встановіть бутлі.</li>
+          <li>Засипте каву, молоко, какао та інші інгредієнти.</li>
+          <li>Проведіть калібрування кави та інгредієнтів.</li>
+          <li>Налаштуйте рецептури напоїв.</li>
+          <li>Налаштуйте ціни та формати оплати.</li>
+          <li>Зробіть тестову видачу напою.</li>
+        </ol>
+      </div>
+
+      <div class="tab-content" id="service">
+        <h3>Обслуговування обладнання</h3>
+
+        <div class="service-grid">
+          <div class="info-card">
+            <h4>Щодня</h4>
+            <p>Перевірити воду, каву, інгредієнти, стакани, контейнер відходів і чистоту зони видачі.</p>
+          </div>
+
+          <div class="info-card">
+            <h4>Щотижня</h4>
+            <p>Промити робочі вузли, перевірити бункери, очистити піддон і перевірити стабільність видачі напоїв.</p>
+          </div>
+
+          <div class="info-card">
+            <h4>Щомісяця</h4>
+            <p>Провести глибше очищення, перевірити налаштування, платіжну систему та основні вузли обладнання.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="checklists">
+        <h3>Чеклісти запуску</h3>
+
+        <label class="check-item"><input type="checkbox"> Обладнання встановлено на рівній поверхні</label>
+        <label class="check-item"><input type="checkbox"> Є доступ до електроживлення</label>
+        <label class="check-item"><input type="checkbox"> Підключено Wi-Fi</label>
+        <label class="check-item"><input type="checkbox"> Завантажено каву та інгредієнти</label>
+        <label class="check-item"><input type="checkbox"> Налаштовано ціни</label>
+        <label class="check-item"><input type="checkbox"> Проведено тестову видачу напою</label>
+        <label class="check-item"><input type="checkbox"> Перевірено оплату</label>
+      </div>
+
+      <div class="tab-content" id="support">
+        <h3>Підтримка EasyVending</h3>
+        <p>
+          Якщо ви не знайшли потрібну інструкцію або виникла помилка, зверніться до менеджера або сервісної служби EasyVending.
         </p>
-    </header>
 
-    <section class="section">
-        <h2>Кавове обладнання</h2>
-
-        <div class="model-grid">
-
-            <a class="model-card" href="models/jl18.html">
-                <img src="assets/images/jl18.png" alt="Jetinno JL18">
-                <h3>Jetinno JL18</h3>
-            </a>
-
-            <a class="model-card" href="models/jl22.html">
-                <img src="assets/images/jl22.png" alt="Jetinno JL22">
-                <h3>Jetinno JL22</h3>
-            </a>
-
-            <a class="model-card" href="models/jl26.html">
-                <img src="assets/images/jl26.png" alt="Jetinno JL26">
-                <h3>Jetinno JL26</h3>
-            </a>
-
-            <a class="model-card" href="models/jl28.html">
-                <img src="assets/images/jl28.png" alt="Jetinno JL28">
-                <h3>Jetinno JL28</h3>
-            </a>
-
-            <a class="model-card" href="models/jl31a.html">
-                <img src="assets/images/jl31.png" alt="Jetinno JL31A">
-                <h3>Jetinno JL31A</h3>
-            </a>
-
-            <a class="model-card" href="models/jl300.html">
-                <img src="assets/images/jl300.png" alt="Jetinno JL300">
-                <h3>Jetinno JL300</h3>
-            </a>
-
+        <div class="support-box">
+          <p><strong>Менеджер:</strong> додайте номер телефону</p>
+          <p><strong>Сервіс:</strong> додайте номер телефону</p>
+          <p><strong>Email:</strong> додайте пошту</p>
+          <p><strong>Telegram:</strong> додайте посилання</p>
         </div>
+      </div>
     </section>
 
-    <section class="section">
-        <h2>Торгові автомати</h2>
+  </main>
 
-        <div class="model-grid">
-
-            <a class="model-card" href="models/g6.html">
-                <img src="assets/images/g6.png" alt="TCN G6">
-                <h3>TCN G6 (H5)</h3>
-            </a>
-
-            <a class="model-card" href="models/g8.html">
-                <img src="assets/images/g8.png" alt="TCN G8">
-                <h3>TCN G8 (H5)</h3>
-            </a>
-
-            <a class="model-card" href="models/g11.html">
-                <img src="assets/images/g11.png" alt="TCN G11">
-                <h3>TCN G11 (V22)</h3>
-            </a>
-
-        </div>
-    </section>
-
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
