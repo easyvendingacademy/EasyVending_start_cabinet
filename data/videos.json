@@ -1,187 +1,135 @@
 {
-  "jl22": {
-    "model": "Jetinno JL22",
+  "jl18": {
+    "title": "Jetinno JL18",
     "videos": [
-      {
-        "title": "Як увімкнути кавомашину: підключення до Wi-Fi",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/DM0qSrslXjg"
-      },
-      {
-        "title": "Як засипати та відкалібрувати каву",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/bnDC_qIlg60"
-      },
-      {
-        "title": "Як відкалібрувати інгредієнти",
-        "category": "Налаштування",
-        "url": "https://youtu.be/a2n9EPTNIOg"
-      },
-      {
-        "title": "Як налаштувати формати сплати",
-        "category": "Налаштування",
-        "url": "https://youtu.be/hvCijY-R9b4"
-      },
-      {
-        "title": "Як скинути помилки",
-        "category": "Типові проблеми",
-        "url": "https://youtu.be/3Gub94vtoE0"
-      },
-      {
-        "title": "Як працювати з режимом баристи",
-        "category": "Додаткові функції",
-        "url": "https://youtu.be/FVUTQGdHI5s"
-      },
-      {
-        "title": "Як прочистити та промити робочі вузли",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/a4Rr3FnLh_Q"
-      },
-      {
-        "title": "Налаштування промивки кавомашини",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/28UzDFKixuY"
-      },
-      {
-        "title": "Злив води з резервуару",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/HyUFQo6D1CM"
-      },
-      {
-        "title": "Злив води з бойлера",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/X8KewyAPV7o"
-      },
-      {
-        "title": "Налаштування температури в бойлері та зміна пароля",
-        "category": "Сервіс",
-        "url": "https://youtu.be/CP2bYMRQxOc"
-      },
-      {
-        "title": "Зняття на техобслуговування й підключення заварювального блоку",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/JREI4Hd_854"
-      },
-      {
-        "title": "Налаштування рецептури напоїв",
-        "category": "Налаштування напоїв",
-        "url": "https://youtu.be/dE4c57K1kck"
-      },
-      {
-        "title": "Як додати напій, зображення та налаштувати ціну",
-        "category": "Налаштування напоїв",
-        "url": "https://youtu.be/rXpA7FHoWPw"
-      },
-      {
-        "title": "Зміна статусу напою",
-        "category": "Налаштування напоїв",
-        "url": "https://youtu.be/FOSgHdFLo1U"
-      },
-      {
-        "title": "Як створити напій",
-        "category": "Налаштування напоїв",
-        "url": "https://youtu.be/OBlCdHx9TEE"
-      },
-      {
-        "title": "Налаштування рекламного відео під час простою апарата",
-        "category": "Додаткові функції",
-        "url": "https://youtu.be/kDNHQ990Yd8"
-      }
+      { "title": "Огляд обладнання", "url": "https://www.youtube.com/watch?v=TxEhpZn9xWs" },
+      { "title": "Як увімкнути кавомашину та підключити Wi-Fi", "url": "https://youtu.be/DM0qSrslXjg" },
+      { "title": "Як засипати та відкалібрувати каву", "url": "https://youtu.be/bnDC_qIlg60" },
+      { "title": "Як відкалібрувати інгредієнти", "url": "https://youtu.be/a2n9EPTNIOg" },
+      { "title": "Як налаштувати формати сплати", "url": "https://youtu.be/hvCijY-R9b4" },
+      { "title": "Як скинути помилки", "url": "https://youtu.be/3Gub94vtoE0" },
+      { "title": "Як працювати з режимом баристи", "url": "https://youtu.be/FVUTQGdHI5s" },
+      { "title": "Як прочистити та промити робочі вузли", "url": "https://youtu.be/a4Rr3FnLh_Q" },
+      { "title": "Налаштування промивки кавомашини", "url": "https://youtu.be/28UzDFKixuY" },
+      { "title": "Злив води з резервуару", "url": "https://youtu.be/HyUFQo6D1CM" },
+      { "title": "Злив води з бойлера", "url": "https://youtu.be/X8KewyAPV7o" },
+      { "title": "Налаштування температури в бойлері та зміна пароля", "url": "https://youtu.be/CP2bYMRQxOc" },
+      { "title": "Налаштування рецептури напоїв", "url": "https://youtu.be/dE4c57K1kck" },
+      { "title": "Як додати напій, зображення та налаштувати ціну", "url": "https://youtu.be/rXpA7FHoWPw" },
+      { "title": "Зміна статусу напою", "url": "https://youtu.be/FOSgHdFLo1U" },
+      { "title": "Як створити напій", "url": "https://youtu.be/OBlCdHx9TEE" },
+      { "title": "Налаштування рекламного відео під час простою апарата", "url": "https://youtu.be/kDNHQ990Yd8" }
     ]
   },
-  "jl31": {
-    "model": "Jetinno JL31A",
+  "jl22": {
+    "title": "Jetinno JL22",
     "videos": [
-      {
-        "title": "Налаштування подачі води в кавомашину",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/6NMu-H71efk"
-      },
-      {
-        "title": "Налаштування Wi-Fi та підключення до особистого кабінету",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/vMuZWfjbAHo"
-      },
-      {
-        "title": "Налаштування напоїв, цін та зображень",
-        "category": "Налаштування напоїв",
-        "url": "https://youtu.be/oOOO6wuK2wg"
-      },
-      {
-        "title": "Налаштування та калібрування кави",
-        "category": "Налаштування",
-        "url": "https://youtu.be/MJ5IYdvPpz4"
-      },
-      {
-        "title": "Калібрування подачі молока / молочної піни",
-        "category": "Налаштування",
-        "url": "https://youtu.be/9W-3BYU2zaM"
-      },
-      {
-        "title": "Калібрування гарячого молока",
-        "category": "Налаштування",
-        "url": "https://youtu.be/VGfMpGTtu68"
-      },
-      {
-        "title": "Очищення капучинатора: фізичне та хімічне",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/lWDUx8T8Yk0"
-      },
-      {
-        "title": "Хімічне очищення заварювального вузла",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/W21169Owsi0"
-      },
-      {
-        "title": "Як знімається та ставиться на місце заварювальний блок",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/_BTgbuQ_UDQ"
-      },
-      {
-        "title": "Злив води з бойлера",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/9sBkWohXG3I"
-      }
+      { "title": "Огляд обладнання", "url": "https://www.youtube.com/watch?v=lF-Qk0lLCjc" },
+      { "title": "Як увімкнути кавомашину та підключити Wi-Fi", "url": "https://youtu.be/DM0qSrslXjg" },
+      { "title": "Як засипати та відкалібрувати каву", "url": "https://youtu.be/bnDC_qIlg60" },
+      { "title": "Як відкалібрувати інгредієнти", "url": "https://youtu.be/a2n9EPTNIOg" },
+      { "title": "Як налаштувати формати сплати", "url": "https://youtu.be/hvCijY-R9b4" },
+      { "title": "Як скинути помилки", "url": "https://youtu.be/3Gub94vtoE0" },
+      { "title": "Як працювати з режимом баристи", "url": "https://youtu.be/FVUTQGdHI5s" },
+      { "title": "Як прочистити та промити робочі вузли", "url": "https://youtu.be/a4Rr3FnLh_Q" },
+      { "title": "Налаштування промивки кавомашини", "url": "https://youtu.be/28UzDFKixuY" },
+      { "title": "Злив води з резервуару", "url": "https://youtu.be/HyUFQo6D1CM" },
+      { "title": "Злив води з бойлера", "url": "https://youtu.be/X8KewyAPV7o" },
+      { "title": "Налаштування температури в бойлері та зміна пароля", "url": "https://youtu.be/CP2bYMRQxOc" },
+      { "title": "Зняття на техобслуговування й підключення заварювального блоку", "url": "https://youtu.be/JREI4Hd_854" },
+      { "title": "Налаштування рецептури напоїв", "url": "https://youtu.be/dE4c57K1kck" },
+      { "title": "Як додати напій, зображення та налаштувати ціну", "url": "https://youtu.be/rXpA7FHoWPw" },
+      { "title": "Зміна статусу напою", "url": "https://youtu.be/FOSgHdFLo1U" },
+      { "title": "Як створити напій", "url": "https://youtu.be/OBlCdHx9TEE" },
+      { "title": "Налаштування рекламного відео під час простою апарата", "url": "https://youtu.be/kDNHQ990Yd8" }
+    ]
+  },
+  "jl26": {
+    "title": "Jetinno JL26",
+    "videos": [
+      { "title": "Огляд обладнання", "url": "https://www.youtube.com/watch?v=QdK13_68IEI&t=19s" },
+      { "title": "Як увімкнути кавомашину та підключити Wi-Fi", "url": "https://youtu.be/DM0qSrslXjg" },
+      { "title": "Як засипати та відкалібрувати каву", "url": "https://youtu.be/bnDC_qIlg60" },
+      { "title": "Як відкалібрувати інгредієнти", "url": "https://youtu.be/a2n9EPTNIOg" },
+      { "title": "Як налаштувати формати сплати", "url": "https://youtu.be/hvCijY-R9b4" },
+      { "title": "Як скинути помилки", "url": "https://youtu.be/3Gub94vtoE0" },
+      { "title": "Як працювати з режимом баристи", "url": "https://youtu.be/FVUTQGdHI5s" },
+      { "title": "Як прочистити та промити робочі вузли", "url": "https://youtu.be/a4Rr3FnLh_Q" },
+      { "title": "Налаштування промивки кавомашини", "url": "https://youtu.be/28UzDFKixuY" },
+      { "title": "Злив води з резервуару", "url": "https://youtu.be/HyUFQo6D1CM" },
+      { "title": "Злив води з бойлера", "url": "https://youtu.be/X8KewyAPV7o" },
+      { "title": "Налаштування температури в бойлері та зміна пароля", "url": "https://youtu.be/CP2bYMRQxOc" },
+      { "title": "Налаштування рецептури напоїв", "url": "https://youtu.be/dE4c57K1kck" },
+      { "title": "Як додати напій, зображення та налаштувати ціну", "url": "https://youtu.be/rXpA7FHoWPw" },
+      { "title": "Зміна статусу напою", "url": "https://youtu.be/FOSgHdFLo1U" },
+      { "title": "Як створити напій", "url": "https://youtu.be/OBlCdHx9TEE" },
+      { "title": "Налаштування рекламного відео під час простою апарата", "url": "https://youtu.be/kDNHQ990Yd8" }
+    ]
+  },
+  "jl28": {
+    "title": "Jetinno JL28",
+    "videos": [
+      { "title": "Огляд обладнання", "url": "https://www.youtube.com/watch?v=SKTvcODEhw4&t=21s" },
+      { "title": "Як увімкнути кавомашину та підключити Wi-Fi", "url": "https://youtu.be/DM0qSrslXjg" },
+      { "title": "Як засипати та відкалібрувати каву", "url": "https://youtu.be/bnDC_qIlg60" },
+      { "title": "Як відкалібрувати інгредієнти", "url": "https://youtu.be/a2n9EPTNIOg" },
+      { "title": "Як налаштувати формати сплати", "url": "https://youtu.be/hvCijY-R9b4" },
+      { "title": "Як скинути помилки", "url": "https://youtu.be/3Gub94vtoE0" },
+      { "title": "Як працювати з режимом баристи", "url": "https://youtu.be/FVUTQGdHI5s" },
+      { "title": "Як прочистити та промити робочі вузли", "url": "https://youtu.be/a4Rr3FnLh_Q" },
+      { "title": "Налаштування промивки кавомашини", "url": "https://youtu.be/28UzDFKixuY" },
+      { "title": "Злив води з резервуару", "url": "https://youtu.be/HyUFQo6D1CM" },
+      { "title": "Злив води з бойлера", "url": "https://youtu.be/X8KewyAPV7o" },
+      { "title": "Налаштування температури в бойлері та зміна пароля", "url": "https://youtu.be/CP2bYMRQxOc" },
+      { "title": "Налаштування рецептури напоїв", "url": "https://youtu.be/dE4c57K1kck" },
+      { "title": "Як додати напій, зображення та налаштувати ціну", "url": "https://youtu.be/rXpA7FHoWPw" },
+      { "title": "Зміна статусу напою", "url": "https://youtu.be/FOSgHdFLo1U" },
+      { "title": "Як створити напій", "url": "https://youtu.be/OBlCdHx9TEE" },
+      { "title": "Налаштування рекламного відео під час простою апарата", "url": "https://youtu.be/kDNHQ990Yd8" }
     ]
   },
   "jl300": {
-    "model": "Jetinno JL300",
+    "title": "Jetinno JL300",
     "videos": [
-      {
-        "title": "Перший запуск, комплектація та огляд JL300",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/ggVc5k6EepA"
-      },
-      {
-        "title": "Як встановити Wi-Fi антену, зафіксувати автомат та встановити відро для монетника",
-        "category": "Монтаж",
-        "url": "https://youtu.be/i3Ice2InLic"
-      },
-      {
-        "title": "Встановлення бутлів з водою в кавомат",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/I5NdBczlx0A"
-      },
-      {
-        "title": "Під'єднання до Wi-Fi та наповнення апарата стаканчиками",
-        "category": "Перший запуск",
-        "url": "https://youtu.be/_aTaPpHPY6E"
-      },
-      {
-        "title": "Встановлення сиропів в автомат",
-        "category": "Завантаження",
-        "url": "https://youtu.be/jTx9E3jCEzQ"
-      },
-      {
-        "title": "Наповнення та встановлення кавового бункера",
-        "category": "Завантаження",
-        "url": "https://youtu.be/6QY5QVZf5l4"
-      },
-      {
-        "title": "Промивання кавомата, зняття та встановлення заварювального вузла",
-        "category": "Обслуговування",
-        "url": "https://youtu.be/nAjgtU7E8IM"
-      }
+      { "title": "Огляд обладнання", "url": "https://www.youtube.com/watch?v=--y6WQiI6bU" },
+      { "title": "Перший запуск, комплектація та огляд JL300", "url": "https://youtu.be/ggVc5k6EepA" },
+      { "title": "Як встановити Wi-Fi антену, зафіксувати автомат та встановити відро для монетника", "url": "https://youtu.be/i3Ice2InLic" },
+      { "title": "Встановлення бутлів з водою в кавомат", "url": "https://youtu.be/I5NdBczlx0A" },
+      { "title": "Під’єднання JL300 до мережі Wi-Fi та наповнення апарата стаканчиками", "url": "https://youtu.be/_aTaPpHPY6E" },
+      { "title": "Встановлення сиропів в автомат", "url": "https://youtu.be/jTx9E3jCEzQ" },
+      { "title": "Наповнення та встановлення кавового бункера", "url": "https://youtu.be/6QY5QVZf5l4" },
+      { "title": "Промивання кавомата, зняття та встановлення заварювального вузла", "url": "https://youtu.be/nAjgtU7E8IM" }
+    ]
+  },
+  "jl31a": {
+    "title": "Jetinno JL31A",
+    "videos": [
+      { "title": "Налаштування подачі води в кавомашину", "url": "https://youtu.be/6NMu-H71efk" },
+      { "title": "Налаштування Wi-Fi та підключення до особистого кабінету", "url": "https://www.youtube.com/watch?v=gjza234f9eA&list=PLSlt5wRE7ryZhkFmGstjkDtZl8WeVIh3h&index=7" },
+      { "title": "Налаштування напоїв, цін та зображень", "url": "https://youtu.be/oOOO6wuK2wg" },
+      { "title": "Налаштування та калібрування кави", "url": "https://youtu.be/MJ5IYdvPpz4" },
+      { "title": "Калібрування подачі молока / молочної піни", "url": "https://youtu.be/9W-3BYU2zaM" },
+      { "title": "Калібрування гарячого молока", "url": "https://youtu.be/VGfMpGTtu68" },
+      { "title": "Очищення капучинатора: фізичне та хімічне", "url": "https://youtu.be/lWDUx8T8Yk0" },
+      { "title": "Хімічне очищення заварювального вузла", "url": "https://youtu.be/W21169Owsi0" },
+      { "title": "Як знімається та ставиться на місце заварювальний блок", "url": "https://youtu.be/_BTgbuQ_UDQ" },
+      { "title": "Злив води з бойлера", "url": "https://youtu.be/9sBkWohXG3I" }
+    ]
+  },
+  "g6": {
+    "title": "Снековий апарат G6",
+    "videos": []
+  },
+  "g8": {
+    "title": "Снековий апарат TCN 8G",
+    "videos": [
+      { "title": "Снековий апарат TCN 8G", "url": "https://www.youtube.com/watch?v=7lKl3fggxoc&list=PLSlt5wRE7ryZhkFmGstjkDtZl8WeVIh3h&index=5" }
+    ]
+  },
+  "g11": {
+    "title": "Снековий апарат TCN 11G",
+    "videos": [
+      { "title": "Коротка інструкція до снеку TCN 11G", "url": "https://www.youtube.com/watch?v=2aIAsxoMy-4&list=PLSlt5wRE7ryZhkFmGstjkDtZl8WeVIh3h&index=6" }
     ]
   }
 }
